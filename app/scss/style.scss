@@ -1241,21 +1241,22 @@
     }
 }
 .footer__col-contact{
-    max-width: 260px;
+    max-width: 267px;
     width: 100%;
-    margin-right: 70px;
-    
+    margin-right: 20px;
 }
 
 .footer__col-text {
     margin-top: 25px;
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .footer__col-icon {
     line-height: 26px;
     position: relative;
     padding-left: 30px;
+    margin-bottom: 20px;
     &::before{
         position: absolute;
         font-family: 'Linearicons-Free';
@@ -1275,7 +1276,9 @@
 }
 
 .footer__col-adress {
+    
     &::before {
+        top: 10px;
         content: "\e833";
     }
 }
@@ -1306,7 +1309,7 @@
         border: none;
         border-radius: 20px;
         width: 100%;
-        padding: 15px 125px 15px 10px;
+        padding: 15px 125px 15px 25px;
         outline: none;
         &::placeholder{
             color: #ababab;
