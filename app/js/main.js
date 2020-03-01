@@ -19,7 +19,7 @@ $(function(){
         ratedFill: "#ffc000"
     });
     
-
+    $('input, select').styler();
 
 
     var mixer = mixitup('.product__inner-box');
